@@ -43,7 +43,7 @@ public class Register {
     public List<? extends Student> getStudentsByName(List<String> names) {
 
         return nameables.stream()
-                .filter(names::contains)
+                .filter(s -> names.contains(s.getName().toLowerCase()))
                 .collect(Collectors.toList());
 
     }

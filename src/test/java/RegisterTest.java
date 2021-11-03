@@ -30,10 +30,15 @@ class RegisterTest {
 
         Register register = new Register(List.of(
                 new Student(List.of(10.0,20.0,30.0), "kwame"),
-                new Student(List.of(40.0,50.0,60.0), "Alex")
+                new Student(List.of(40.0,50.0,60.0), "Alex"),
+                new Student(List.of(40.0,50.0,60.0), "smith")
         ));
 
-        Optional<? extends Student> student = register.getStudentByName("alex");
+        Optional<? extends Student> student = register.getStudentByName("kwame");
+
+        System.out.println(register.getStudentsByName(List.of("kwame", "alex")));
+
+        System.out.println(student.orElse(null));
 
     }
 }

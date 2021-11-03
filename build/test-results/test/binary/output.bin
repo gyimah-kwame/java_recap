@@ -1,1 +1,2 @@
-Optional[Student@706755bd]
+e[Student{grades=[10.0, 20.0, 30.0], name='kwame'}, Student{grades=[40.0, 50.0, 60.0], name='Alex'}]
+2Student{grades=[10.0, 20.0, 30.0], name='kwame'}

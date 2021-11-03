@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RegisterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-03T10:19:39" hostname="DESKTOP-NKOEJ2R" time="0.02">
+<testsuite name="RegisterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-03T10:56:20" hostname="DESKTOP-NKOEJ2R" time="0.026">
   <properties/>
-  <testcase name="getStudentsByName()" classname="RegisterTest" time="0.02"/>
-  <system-out><![CDATA[Optional[Student@706755bd]
+  <testcase name="getStudentsByName()" classname="RegisterTest" time="0.026"/>
+  <system-out><![CDATA[[Student{grades=[10.0, 20.0, 30.0], name='kwame'}, Student{grades=[40.0, 50.0, 60.0], name='Alex'}]
+Student{grades=[10.0, 20.0, 30.0], name='kwame'}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

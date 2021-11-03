@@ -32,4 +32,12 @@ public class Student {
     public Stream<Double> getGradeStream() {
         return grades.stream();
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "grades=" + grades +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
